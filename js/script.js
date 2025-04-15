@@ -1,7 +1,7 @@
 // Add student name and ID to the page automatically
 document.getElementById("studentInfo").textContent = "Name: Tumhang Limbu | ID: 200590277";
 
-// My actual API key from OpenWeatherMap (make sure it's working)
+// My actual API key from OpenWeatherMap
 const apiKey = "bacbcb29616cd6a6c8ded4488137a197";
 
 // This function runs when the user clicks "Get Weather"
