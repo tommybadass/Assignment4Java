@@ -1,4 +1,4 @@
-// Add student name and ID to the page automatically
+// Show my name and student ID on the page
 document.getElementById("studentInfo").textContent = "Name: Tumhang Limbu | ID: 200590277";
 
 // My actual API key from OpenWeatherMap
@@ -25,7 +25,7 @@ function getWeather() {
   // Make the actual API request
   fetch(url)
     .then(response => {
-      // If the city isn't found or key isn't working
+      // If something goes wrong 
       if (!response.ok) {
         throw new Error("City not found.");
       }
